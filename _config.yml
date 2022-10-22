@@ -1,0 +1,63 @@
+search_enabled: false
+title: Professional WFH Setup [BETA]
+baseurl: /professionalworkfromhomesetup
+url: https://elliotswart.github.io
+domain: elliotswart.github.io
+
+email: elliot@swart.org
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+github_username:  jekyll
+
+# Build settings
+remote_theme: just-the-docs/just-the-docs
+
+color_scheme: standard
+
+author:
+  name: Elliot Swart
+  url: https://www.linkedin.com/in/elliotswart/
+
+aux_links:
+  "GitHub Repository":
+    - "https://github.com/ElliotSwart/professionalworkfromhomesetup"
+  "About the Author":
+    - "https://www.linkedin.com/in/elliotswart/"
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+footer_content: "Copyright &copy; 2022 Elliot Swart. Distributed by an <a href=\"https://github.com/ElliotSwart/pragmaticformalmodeling/blob/main/LICENSE.md\">MIT license.</a> "
+
+plugins:
+  - jekyll-seo-tag
+
+gh_edit_link: true # show or hide edit this page link
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_repository: "https://github.com/ElliotSwart/pragmaticformalmodeling" # the github URL for your repo
+gh_edit_branch: "main" # the branch that your docs is served from
+# gh_edit_source: docs # the source that your files originate from
+gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
+
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
